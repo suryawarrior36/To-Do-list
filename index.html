@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<title>To-Do List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To-Do List</title>
 </head>
-<body background="assets/wavy.gif" style="background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+<body gbackground="assets/wavy.gif" style="background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
     <header>
         <h1>To-Do list</h1>
     </header>
     <form class="input-section">
-        <h3>Enter your Task:</h3>
-        <br>
-        <input type="text" name="task-content" placeholder="Your Task">
-        <button onclick="printList()">Submit</button>
+        <input type="text" id="task-content" placeholder="Enter your Task">
+        <button type="button" onclick="printList()">Submit</button>
     </form>
-    <div class="list-main">
-        <p id="list-content"></p>
-    </div>
+    <p id="list-content"></p>
+    <script src="assets/js/script.js"></script>
 </body>
+</html>
