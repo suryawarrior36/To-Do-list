@@ -1,7 +1,13 @@
 header{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(48, 62, 111);
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
+    border: 8px solid rgb(252, 86, 4);
+    h1{
+        margin: 20px;
+        color: white;
+    }
 }
 
 .input-section{
@@ -10,15 +16,60 @@ header{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    margin: 30px;
     h3{
         color: white;
         font-size: 30px;
     }
     input{
-        height: 30px;
-        
+        height: 40px;
+        width: 300px;
+        background-color: rgb(100, 98, 98);
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid rgb(49, 48, 48);
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+        margin: 5px;
+    }
+
+    input:hover{
+        background-color: rgb(181, 182, 183);
+    }
+
+
+    #task-content::placeholder {
+        color: rgb(255, 255, 255);
+        padding-left: 10px;
     }
     button{
-        height: 35px;
+        height: 45px;
+        width: 80px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        background-color: rgb(149, 252, 23);
+        border: 2px solid rgb(49, 48, 48);
+        font-size: 20px;
     }
+
+    button:hover{
+        background-color: rgb(168, 255, 62);
+    }
+}
+ul{
+    list-style-type: none;
+    font-size: 35px;
+    color: white;
+    line-height: 2;
+}
+.main-section{
+    background-color: rgba(48, 62, 111, 0.91);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>To-Do List</title>
 </head>
-<body gbackground="assets/wavy.gif" style="background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+<body background="assets/bg.jpg" style="background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
     <header>
         <h1>To-Do list</h1>
     </header>
@@ -14,7 +14,12 @@
         <input type="text" id="task-content" placeholder="Enter your Task">
         <button type="button" onclick="printList()">Submit</button>
     </form>
-    <p id="list-content"></p>
+    <br>
+    <div class="main-section">
+        <ul id="list-content">
+        </ul>
+    </div>
+    
     <script src="assets/js/script.js"></script>
 </body>
 </html>
